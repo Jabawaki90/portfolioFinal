@@ -1,11 +1,10 @@
-import react from "react";
 import styled from "styled-components";
 
 const Intro = () => {
   return (
     <Wrapper>
-      <div className="container">
-        <div className="text-container1">
+      <div id="intro" className="container">
+        <div className="text-container1 fadeOout">
           <h3>Hello I'm</h3>
           <h1>ASHRAF AZEMI</h1>;
         </div>
@@ -27,7 +26,7 @@ const Wrapper = styled.article`
 
   .text-container1 {
     position: absolute;
-    top: 40%;
+    top: 35%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 500px;
@@ -38,9 +37,10 @@ const Wrapper = styled.article`
     align-items: center;
     justify-content: center;
   }
+
   .text-container2 {
     position: absolute;
-    top: 40%;
+    top: 35%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 500px;
@@ -52,6 +52,33 @@ const Wrapper = styled.article`
     justify-content: center;
     opacity: 0;
   }
+
+  .fadeOout {
+    animation: fadeOut linear 4s;
+  }
+
+  .fadeIin {
+    animation: fadeIn linear 4s;
+  }
+
+  @keyframes fadeOut {
+    100% {
+      opacity: 1;
+    }
+    0% {
+      opacity: 0;
+    }
+  }
+
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
   h1 {
     margin: 0;
     color: white;
