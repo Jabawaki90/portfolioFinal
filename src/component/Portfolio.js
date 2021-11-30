@@ -12,9 +12,13 @@ const Portfolio = () => {
           <h1 className="title-2 title">I love to share my projects</h1>
         </div>
         <div className="portfolio-container">
-          <a href="https://github.com/Jabawaki90/pokemon" target="_blank">
+          <a
+            href="https://github.com/Jabawaki90/pokemon"
+            target="_blank"
+            rel="noreferrer"
+          >
             <div className="portfolio-card">
-              <img src={pokemon} />
+              <img src={pokemon} alt="pokemon" />
 
               <div className="content-container">
                 <h2 className="child-title">Pokemon</h2>

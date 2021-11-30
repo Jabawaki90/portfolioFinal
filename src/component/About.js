@@ -7,7 +7,7 @@ const About = () => {
     <Wrapper>
       <div id="about" className="container">
         <div className="image-container">
-          <img src={picture} alt="" />
+          <img src={picture} alt="" rel="noreferrer" />
         </div>
         <div className="detail-container">
           <h2 className="font">Hi! I'm Ashraf Azemi</h2>
@@ -23,6 +23,7 @@ const About = () => {
               className="logo"
               href="https://www.linkedin.com/in/ashrafazemi/"
               target="_blank"
+              rel="noreferrer"
             >
               <FaLinkedin className="icon" />
             </a>
@@ -30,6 +31,7 @@ const About = () => {
               className="logo"
               href="https://github.com/Jabawaki90"
               target="_blank"
+              rel="noreferrer"
             >
               <FaGithub className="icon" />
             </a>
@@ -43,6 +45,7 @@ const About = () => {
                   className="email"
                   href="https://mail.google.com/mail/u/0/#inbox?compose=new"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   {" "}
                   ashraf.chzm@gmail.com

@@ -10,6 +10,7 @@ const Footer = () => {
             className="logo"
             href="https://github.com/Jabawaki90"
             target="_blank"
+            rel="noreferrer"
           >
             <FaGithub />
           </a>
@@ -17,6 +18,7 @@ const Footer = () => {
             className="logo"
             href="https://www.linkedin.com/in/ashrafazemi/"
             target="_blank"
+            rel="noreferrer"
           >
             <FaLinkedin />
           </a>

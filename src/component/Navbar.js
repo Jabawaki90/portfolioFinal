@@ -1,12 +1,9 @@
 import { GiHamburgerMenu } from "react-icons/gi";
-import { useState } from "react";
 import styled from "styled-components";
 import profile from "../asset/profile.jpeg";
 import { Modal } from "./index.js";
 
 const Navbar = () => {
-  const [modal, setModal] = useState(true);
-
   return (
     <Wrapper>
       <section className="nav-container">
